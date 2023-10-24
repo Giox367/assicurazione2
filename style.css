@@ -103,6 +103,7 @@ button[type="submit"] {
     justify-content: center;
     text-align: center;
     margin-top: 10px;
+    margin-bottom: 3em;
 }
 
 #phone-button {
@@ -120,3 +121,7 @@ button[type="submit"]:hover,
 #phone-button:hover {
     background-color: #005580;
 }
+
+a{
+    color: #fff;
+} 
