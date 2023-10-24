@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piattaforma Assicurativa</title>
+    <meta name="description" content="Breve descrizione accurata della piattaforma assicurativa">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-fluid">
+    <header>
+        <img src="/assets/logo.jpeg" alt="Logo della piattaforma assicurativa">
+        <h1>Piattaforma Assicurativa</h1>
+    </header>
+    
+    <main>
+        <section class="description">
+            <h2>Benvenuti nella nostra piattaforma assicurativa</h2>
+            <p>La nostra piattaforma offre soluzioni assicurative affidabili e convenienti per proteggere ciò che conta di più per te e la tua famiglia. Con servizi su misura e tariffe competitive, siamo qui per aiutarti a vivere con tranquillità.</p>
+        </section>
+        
+        <section class="contact-form">
+            <h2>Contattaci</h2>
+            <div id="phone-container">
+               
+                <button id="phone-button"><a href="tel:+11234567890">Chiamaci ora: +1 123-456-7890</a></button>
+            </div>
+            <p>Per ulteriori informazioni, compila il seguente modulo o chiama il numero di telefono sottostante:</p>
+            <form action="contatta.php" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="messaggio">Messaggio:</label>
+                <textarea id="messaggio" name="messaggio" rows="4" required></textarea>
+
+                <button type="submit">Invia</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Piattaforma Assicurativa</p>
+    </footer>
+
+    <script src="script.js"></script>
+    </div>
+</body>
+</html>
