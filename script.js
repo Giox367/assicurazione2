@@ -5,10 +5,10 @@ phoneButton.addEventListener('mouseover', () => {
 });
 
 phoneButton.addEventListener('mouseout', () => {
-    phoneButton.textContent = '+1 123-456-7890';
+    phoneButton.textContent = '0221100763';
 });
 
 document.getElementById('phone-button').addEventListener('click', function() {
-    var phoneNumber = '+11234567890'; // Sostituisci con il tuo numero di telefono
+    var phoneNumber = '0221100763';
     window.location.href = 'tel:' + phoneNumber;
 });
